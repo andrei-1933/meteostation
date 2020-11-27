@@ -1,4 +1,4 @@
-//тест 
+//тест notepad
 void checkBrightness() {
   if (analogRead(PHOTO) < BRIGHT_THRESHOLD) {   // если темно
     analogWrite(BACKLIGHT, LCD_BRIGHT_MIN);
